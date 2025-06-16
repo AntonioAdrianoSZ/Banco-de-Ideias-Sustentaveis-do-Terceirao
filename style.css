@@ -129,7 +129,7 @@ nav a {
   border-radius: 12px;
   background: rgba(255 255 255 / 0.1);
   transition: background 0.3s ease, color 0.3s ease;
-  box-shadow: inset 0 0 0 0 #a7f3d0;
+  box-shadow: inset 0 0 0 0 #74bd9b;
 }
 
 nav a:hover,
@@ -155,7 +155,7 @@ h2 {
 }
 
 .categoria h3 {
-  color: #35ed76;
+  color: #6de998;
   font-size: 1.6rem;
   margin-bottom: 12px;
   font-weight: 700;
