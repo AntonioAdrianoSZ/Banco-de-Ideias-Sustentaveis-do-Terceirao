@@ -29,7 +29,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #44f7a3;
+  color: #aefed9;
   outline: none;
 }
 
@@ -155,7 +155,7 @@ h2 {
 }
 
 .categoria h3 {
-  color: #bbf7d0;
+  color: #35ed76;
   font-size: 1.6rem;
   margin-bottom: 12px;
   font-weight: 700;
