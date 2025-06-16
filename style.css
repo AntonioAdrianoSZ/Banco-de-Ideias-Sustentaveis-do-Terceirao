@@ -161,7 +161,7 @@ h2 {
 .categoria ul {
   list-style-type: disc;
   padding-left: 20px;
-  color: #21543b;
+  color: #c70f0f;
 }
 
 .categoria ul li {
@@ -181,7 +181,7 @@ form {
 label {
   font-weight: 700;
   margin-bottom: 6px;
-  color: #ff0000;
+  color: #00bc2c;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
 }
 
