@@ -132,7 +132,7 @@ nav a:hover,
 nav a:focus {
   background: #a7f3d0;
   color: #065f46;
-  box-shadow: inset 0 0 8px 2px #d1fae5;
+  box-shadow: inset 0 0 8px 2px #1ab163;
   outline-offset: 3px;
 }
 
