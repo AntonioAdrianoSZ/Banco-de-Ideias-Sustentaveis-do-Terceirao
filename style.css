@@ -54,6 +54,31 @@ section:hover {
   box-shadow: 0 12px 38px rgba(2, 45, 94, 0.8);
 }
 
+/* Centralizar imagem abaixo do Objetivo do Projeto */
+.centered-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.centered-image-container img {
+  max-width: 100%;
+  max-height: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0, 55, 134, 0.6);
+  transition: transform 0.3s ease;
+  user-select: none;
+  pointer-events: none;
+}
+
+.centered-image-container img:hover,
+.centered-image-container img:focus {
+  transform: scale(1.05);
+  outline: none;
+}
+
 /* Header */
 header {
   background: rgba(0, 0, 0, 0.85);
