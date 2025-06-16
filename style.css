@@ -151,7 +151,7 @@ h2 {
 }
 
 .categoria h3 {
-  color: #98e7b4;
+  color: #008a30;
   font-size: 1.6rem;
   margin-bottom: 12px;
   font-weight: 700;
@@ -161,7 +161,7 @@ h2 {
 .categoria ul {
   list-style-type: disc;
   padding-left: 20px;
-  color: #c70f0f;
+  color: #005c1f;
 }
 
 .categoria ul li {
