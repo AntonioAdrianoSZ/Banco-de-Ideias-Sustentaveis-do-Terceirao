@@ -107,7 +107,7 @@ header p {
 nav {
   display: flex;
   justify-content: center;
-  background: rgba(255 255 255 / 0.1);
+  background: rgba(175, 175, 175, 0.1);
   padding: 12px 20px;
   gap: 24px;
   box-shadow: 0 4px 10px rgb(4 120 87 / 0.25);
@@ -130,7 +130,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  background: #709482;
+  background: #b9ddcb;
   color: #065f46;
   box-shadow: inset 0 0 8px 2px #1ab163;
   outline-offset: 3px;
