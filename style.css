@@ -217,7 +217,7 @@ textarea:focus {
 /* Botão */
 button {
   cursor: pointer;
-  background: linear-gradient(135deg, #22c55e, #10b981);
+  background: linear-gradient(135deg, #2e0ae2e0, #10b981);
   border: none;
   border-radius: 24px;
   padding: 14px 0;
