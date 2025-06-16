@@ -12,7 +12,7 @@
 
 body {
   background: linear-gradient(135deg, #10b981, #047857);
-  color: #b11d1d;
+  color: #165a2b;
   line-height: 1.6;
   min-height: 100vh;
   display: flex;
@@ -35,7 +35,7 @@ a:focus {
 
 /* Container das seções para centralização e espaçamento */
 section {
-  background: rgba(255 255 255 / 0.08);
+  background: rgb(98, 119, 105);
   margin: 24px auto;
   padding: 32px;
   max-width: 900px;
