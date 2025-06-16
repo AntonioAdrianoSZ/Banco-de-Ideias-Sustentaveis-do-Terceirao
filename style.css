@@ -181,7 +181,7 @@ form {
 label {
   font-weight: 700;
   margin-bottom: 6px;
-  color: #bbf7d0;
+  color: #ff0000;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
 }
 
@@ -224,7 +224,7 @@ button {
   font-size: 1.2rem;
   font-weight: 800;
   color: #e0f2f1;
-  box-shadow: 0 6px 20px #ff0000cc;
+  box-shadow: 0 6px 20px #50ec24cc;
   transition: filter 0.3s ease, transform 0.3s ease;
   user-select: none;
 }
