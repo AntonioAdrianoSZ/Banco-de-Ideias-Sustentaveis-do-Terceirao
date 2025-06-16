@@ -4,6 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banco de Ideias Sustentáveis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header, footer {
+      background: #35424a;
+      color: #ffffff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      margin: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #35424a;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+      margin: 10px;
+      background: #ffffff;
+      border-radius: 5px;
+    }
+    .categoria {
+      margin-bottom: 15px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin: 10px 0 5px;
+    }
+    input, select, textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px;
+      background: #35424a;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
 </head>
 <body>
 
@@ -21,7 +77,7 @@
 
 <section id="inicio">
   <h2>Objetivo do Projeto</h2>
-  <p>Nosso objetivo é reunir e compartilhar ideias práticas e criativas que ajudem a tornar nosso dia a dia mais sustentável. Mudanças simples nos hábitos diários podem fazer toda a diferença para o meio ambiente e nossa qualidade de vida.</p>
+  <p>Nosso objetivo é reunir e compartilhar ideias práticas e criativas que ajudem a tornar nosso dia a dia mais sustentável. Mudanças simples nos hábitos diários podem fazer toda a diferença para o meio ambiente e nossa qualidade de vida. Junte-se a nós nessa jornada!</p>
 </section>
 
 <section id="categorias">
@@ -75,10 +131,11 @@
   <h2>Envie sua Ideia</h2>
   <form>
     <label for="nome">Seu nome:</label>
-    <input type="text" id="nome" name="nome" required>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
 
     <label for="categoria">Categoria:</label>
-    <select id="categoria" name="categoria">
+    <select id="categoria" name="categoria" required>
+      <option value="" disabled selected>Selecione uma categoria</option>
       <option value="alimentacao">Alimentação</option>
       <option value="transporte">Transporte</option>
       <option value="energia">Energia</option>
@@ -88,7 +145,7 @@
     </select>
 
     <label for="ideia">Sua ideia sustentável:</label>
-    <textarea id="ideia" name="ideia" rows="5" required></textarea>
+    <textarea id="ideia" name="ideia" rows="5" placeholder="Descreva sua ideia aqui..." required></textarea>
 
     <button type="submit">Enviar</button>
   </form>
@@ -96,7 +153,7 @@
 
 <section id="conclusao">
   <h2>Conclusão</h2>
-  <p>Incentivamos todos a adotarem práticas sustentáveis no dia a dia. Compartilhe suas ideias, troque experiências e ajude a construir um futuro mais verde, criativo e inovador!</p>
+  <p>Incentivamos todos a adotarem práticas sustentáveis no dia a dia. Compartilhe suas ideias, troque experiências e ajude a construir um futuro mais verde, criativo e inovador! Juntos, podemos fazer a diferença!</p>
 </section>
 
 <footer>
