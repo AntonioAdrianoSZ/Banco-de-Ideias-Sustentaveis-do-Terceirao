@@ -1,9 +1,12 @@
+/* Import Google Font Mulish */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
 /* Reset básico e configuração geral */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Mulish', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -44,6 +47,37 @@ section {
 
 section:hover {
   box-shadow: 0 12px 32px rgb(4 120 87 / 0.45);
+}
+
+/* Espaço para imagens dentro das seções */
+.image-container {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 16px auto 32px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.4);
+  background: rgba(255 255 255 / 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  object-fit: cover;
+  user-select: none;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 6px rgba(4, 120, 87, 0.6));
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover,
+.image-container img:focus {
+  transform: scale(1.05);
+  outline: none;
 }
 
 /* Header styling */
@@ -256,6 +290,11 @@ footer {
   form {
     max-width: 100%;
   }
+
+  .image-container {
+    max-height: 280px;
+    margin: 12px auto 28px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -266,5 +305,4 @@ footer {
     font-size: 1rem;
   }
 }
-
 
